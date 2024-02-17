@@ -20,7 +20,7 @@ function home() {
           <h1 className='container-fluid mx-3'>Super Value Deals</h1>
           <h2 className=' container-fluid pb-4 mx-3'>On all products</h2>
 
-          <Link className=' container-fluid button-link mt-4 text-align-center'>Shop Now</Link>
+          <Link className=' container-fluid  button-link mt-4 text-align-center'>Shop Now</Link>
 
         </div>
         </div>
@@ -86,14 +86,14 @@ function home() {
     <div className='container-fluid'>
       <div className="row">
         <div className="d-flex ">
-        <div className="col-6 p-4">
-          <div className="card cardl  row">
+        <div className="col-6 p-4 cardbod">
+          <div className="card cardl   row">
             <div className="d-flex">
-            <div className="col-md-4 ">
+            <div className="col-md-4  ">
               <img src={img1} alt='' className='img-fluid rounded-start pt-4 px-2'/>
             </div>
             <div className="col-md-8">
-              <div className="card-body">
+              <div className="card-body ">
               <span>Hot Deals</span>
               <h3 className='card-tittle'>Buy One Get One Free</h3>
               <p>The latest best collection in our closet feel Cute with our Outfit</p>
@@ -108,14 +108,14 @@ function home() {
           </div>
           </div>
           
-          <div className="col-6 p-4">
+          <div className="col-6 p-4 cardbod">
           <div className="card cardl row">
           <div className="d-flex">
             <div className="col-md-4">
               <img src={img2} alt='' className='img-fluid rounded-start pt-4'/>
             </div>
             <div className="col-md-8">
-            <div className="card-body">
+            <div className="card-body  ">
               <span>Hot Deals</span>
               <h3 className='card-tittle'>Buy One Get One Free</h3>
               <p>The latest best collection in our closet feel Cute with our Outfit</p>
@@ -134,9 +134,9 @@ function home() {
     </div>
   </section>
   <div className="blog p-3">
-    <div className="container-fluid">
-      <div className="row">
-        <div className='text-center mb-4'>
+    <div className="container-fluid ">
+      <div className="row ">
+        <div className='text-center mb-4 '>
           <h1>What Our Customer Say</h1>
           <p>Our Customer never miss a bit on providing feedback</p>
 
@@ -144,6 +144,7 @@ function home() {
         
           
         </div>
+        
         <Blogs />
     </div>
   </div>

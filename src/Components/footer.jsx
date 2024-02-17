@@ -13,11 +13,11 @@ import pay from '../assets/images/pay/pay.png';
 const footer =()=>{
     return(
         <footer className='footer p-5 container-fluid' >
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-4 d-flex flex-column ">
+            <div className="container-fluid ">
+                <div className="row footers">
+                    <div className="col-4 d-flex flex-column footers">
                         <h3 className="mb-4">Contact Us</h3>
-                        <div className="footer-details">
+                        <div className="footer-details ">
                             <p className="mb-3"><b>Address:</b> Thika Town,Natlex Building,2nd Floor</p>
                             <p className="mb-3"><b>Phone:</b> <a href="tel:+2426747467">Call us +2426747467</a></p>
                             <p className="mb-3"><b>OpenAt:</b> From 8 A.m to 5 p.m</p>
@@ -31,7 +31,7 @@ const footer =()=>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-2 ">
+                    <div className="col-2 stylet">
                         <h3 className=" mb-4">About</h3>
                         <div className="footer-details d-flex flex-column">
                             <Link className="mb-3 sky">
@@ -49,7 +49,7 @@ const footer =()=>{
                             
                         </div>
                     </div>
-                    <div className="col-2">
+                    <div className="col-2 nodisplay">
                         <h3 className=" mb-4">Account</h3>
                         <div className="footer-details d-flex flex-column">
                             <Link className="mb-3 sky">
@@ -73,7 +73,7 @@ const footer =()=>{
                             
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-4 nodisplay">
                         <h3 className="mb-3">Install App</h3>
                         <p>Available on Google Play Services & App Store</p>
                         <div className="pay d-flex ">
@@ -94,14 +94,14 @@ const footer =()=>{
 <hr/>
 
                 
-                <div className=" container-fluid row d-flex justify-content-between">
-                    <div className="col-3">
-                        <p>&copy; Developed by Simran Singh 2024</p>
+                <div className=" container-fluid row d-flex justify-content-between ">
+                    <div className="col-3 lp">
+                        <p className="lp">&copy; Developed by Simran Singh 2024</p>
                     </div>
-                    <div className="col-3 d-flex justify-content-around">
-                        <Link className="text-black">Privacy Policy</Link>
-                        <Link className="text-black">Terms of Use</Link>
-                        <Link className="text-black">Contact Me</Link>
+                    <div className="col-3 d-flex justify-content-around ">
+                        <Link className=" last text-black">Privacy Policy</Link>
+                        <Link className=" last text-black">Terms of Use</Link>
+                        <Link className="last  text-black">Contact Me</Link>
                     </div>
                 </div>
                 

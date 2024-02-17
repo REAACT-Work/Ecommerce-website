@@ -7,9 +7,9 @@ import blog4 from "../assets/images/blog/blog-4.jpg"
 const Blogs = () => {
   return (
     <div>
-      <div className="col d-flex m-auto">
-        <div className="card mx-2">
-            <img src={blog1} alt='' className='card-img img-fluid mb-3 p-5'/>
+      <div className="col d-flex m-auto customer ">
+        <div className="card mx-2 ">
+            <img src={blog1} alt='' className=' card-img img-fluid mb-3 p-5'/>
             <div className="card-body">
                 <p className='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, amet.laboriosam, veritatis tenetur quaerat nisi est .</p>
                 <button className='button-blog'>
@@ -17,7 +17,7 @@ const Blogs = () => {
                 </button>
             </div>
         </div>
-        <div className="card mx-2">
+        <div className="card mx-2 customers">
             <img src={blog2} alt='' className='card-img img-fluid mb-3 p-5'/>
             <div className="card-body">
                 <p className='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, amet.laboriosam, veritatis tenetur quaerat nisi est .</p>
@@ -26,7 +26,7 @@ const Blogs = () => {
                 </button>
             </div>
         </div>
-        <div className="card mx-2">
+        <div className="card mx-2 customers">
             <img src={blog3} alt='' className='card-img img-fluid mb-3 p-5'/>
             <div className="card-body">
                 <p className='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, amet.laboriosam, veritatis tenetur quaerat nisi est .</p>
@@ -35,8 +35,8 @@ const Blogs = () => {
                 </button>
             </div>
         </div>
-        <div className="card mx-2">
-            <img src={blog4} alt='' className='card-img img-fluid mb-3 p-5'/>
+        <div className="card mx-2 customers">
+            <img src={blog4} alt='' className='card-img img-fluid mb-3 p-5 '/>
             <div className="card-body">
                 <p className='mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, amet.laboriosam, veritatis tenetur quaerat nisi est .</p>
                 <button className='button-blog'>

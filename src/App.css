@@ -3,6 +3,7 @@
 *{
   margin: 0;
   padding: 0;
+  
 }
 :root{
   --primary: #00A97F;
@@ -340,42 +341,68 @@ footer{
 
 
 /* Media query */
-@media (max-width: 991px) {
+@media (max-width: 700px) {
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
   .header-upper {
       position: relative;
   }
-  .nav-link-nav {
-      position: absolute;
-      top: 100%;
-      background-color: #ffffff;
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      z-index: 10;
+  .header-top-strip p ,.header-top-strip a
+  {
+    font-size: 12px;
+    padding: 0px;
   }
-  .nav-link-nav.show {
-      display: flex;
+  .top-img Link{
+    font-size: 9px;
+    padding: 0px;
+    
   }
-  .nav-link-nav a {
-      padding: 10px 20px;
-      color: #333333;
-      font-size: 16px;
-      text-decoration: none;
-      transition: all 0.3s ease;
-  }
-  .nav-link-nav a:hover {
-      background-color: #f2f2f2;
-  }
-  .navbar-toggler {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-  }
+/* Nav part */
 
 
+  .searchbar{
+    width: 100% !important;
+    display: flex;
+  }
+  .header-upper{
+    position: sticky;
+    
+  }
+  .logo{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 10px;
+  }
+  .cart-icon{
+    margin-left: 0px !important;
+  }
+  .link{
+    padding: 7px !important;
+  }
+  
+  .cart-icon p{
+    display: none;
+  }
+  .side{
+    display: flex;
+    flex-direction: end;
+  }
+  .button-link{
+    width: 80px;
+    margin-left: 20px;
+  }
+  .card-details img{
+    width: 50px;
+    height: 45px;
 
+  }
+ 
 
+  
+/* end nav */
+/* home */
 .rad{
   display: flex;
   width: 400px;
@@ -395,10 +422,46 @@ footer{
   width: 100%;
   margin-bottom: 20px;
 }
+.cardbod{
+  display: none;
+  
+}
+.customers{
+  display: none;
+}
+.customer{
+  
+  width: 20rem;
+  align-items: center;
+  margin-top: 20px;
+}
 
 
+/* home end */
+/* footer */
 
+.footers{
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.stylet{
+  padding-left: 100px;
+  align-items: center;
+  margin-top: 20px;
+}
 
+.footers a{
+  margin-left: 10px;
+}
+.nodisplay{
+  display: none;
+}
+
+.last {
+  display: none;
+}
 
 
 }
