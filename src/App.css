@@ -108,15 +108,18 @@ button{
   text-decoration: none;
 }
 .aactive{
-  font-weight: 600;
-  color:#256BCE;
+  font-weight: 450;
+  color:#697D8A;
   text-decoration: none;
-  border-bottom: 2px solid #256BCE;
+  border-bottom: 2px solid black;
 }
 .iinactive{
-  color:#256BCE;
-  font-weight: 600;
+  color:#697D8A;
+  font-weight: 500;
   
+}
+.car{
+  color:#697D8A;
 }
 
 .inactive{
@@ -131,6 +134,7 @@ button{
 
 footer{
   color: val(--lighter2);
+  
 }
 
 .pay img{
@@ -146,6 +150,7 @@ footer{
 .sky:hover{
   color: var(--primary);
 }
+
 
 
 /* Fotter end */
@@ -334,6 +339,9 @@ footer{
   background-color: #FF6000;
   border: none;
 }
+.header-upper{
+  background-color: #E8F2EC;
+}
 
 
 /* Home End */
@@ -440,31 +448,40 @@ footer{
 /* home end */
 /* footer */
 
-.footers{
+.contact{
+  width: 100% !important;
+  align-items: center;
   display: flex;
-  font-size: 10px;
-  align-items: center;
-  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
 }
-.stylet{
-  padding-left: 100px;
+.footer-details{
+  width: 100%!important;
   align-items: center;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}
+.car{
+  padding-bottom: 10px;
 }
 
-.footers a{
-  margin-left: 10px;
-}
-.nodisplay{
+.nod{
   display: none;
 }
-
-.last {
-  display: none;
+.abc{
+  display: flex;
+  font-size: 10px !important;
+}
+.lp{
+  
+  display: inline !important;
+  font-size: 10px!important;
+}
 }
 
-
-}
 
 
 

@@ -53,13 +53,13 @@ const header = () => {
                         <Link to={'contact'} className={`link ${location.pathname === '/contact' ? 'active' : 'inactive'}`}>Contact</Link>
 
                         <div className='nav-link-nav col-3 d-flex px-5 align-items-center justify-content-between side '>
-                        <Link to={'wishlist'} className='d-flex fs-5 px-2 pt-3 side'><HiOutlineInboxIn/>
+                        <Link to={'wishlist'} className='d-flex fs-5 px-2 pt-3 side car'><HiOutlineInboxIn/>
                         <p className={location.pathname==="/wishlist" ? 'aactive' : 'iinactive'}>Wishlist</p>
                         </Link>
-                        <Link to={'account'} className='d-flex fs-5 side   px-2 pt-3'><VscAccount/>
+                        <Link to={'account'} className='d-flex fs-5 side   px-2 pt-3 car'><VscAccount/>
                         <p className={location.pathname==="/account" ? 'aactive' : 'iinactive'}>Account</p>
                         </Link>
-                        <Link to={'cart'} className='d-flex fs-5 px-2 side pt-3'><CgShoppingCart/>
+                        <Link to={'cart'} className='d-flex fs-5 px-2 side pt-3 car'><CgShoppingCart/>
                         <p className={location.pathname==="/cart" ? 'aactive' : 'iinactive'}>Cart</p>
                         </Link>
 
